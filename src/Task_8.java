@@ -2,7 +2,6 @@ import java.util.ArrayList;
 
 public class Task_8 {
     public static String str_2;
-    public static String str_3;
 
     public static void main(String[] args) {
         String str = "The storm is expected to slam into the Virgin Islands and northeastern Puerto Rico on Wednesday.";
@@ -29,11 +28,11 @@ public class Task_8 {
         }
         for (int i = 0; i < arrayList_1.size(); i++) {
 
-            str_3 += " " + arrayList_1.get(i);
+            str_2 += " " + arrayList_1.get(i);
 
         }
-        str_3 = str_3.substring(5);
-        System.out.print(str_3);
+        str_2 = str_2.substring(5);
+        System.out.print(str_2);
 
     }
 }
